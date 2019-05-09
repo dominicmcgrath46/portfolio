@@ -28,7 +28,7 @@ section {
 	padding: 10px;
 }
 
-/* Media querires to remove title, bio and nav when screen size is too small */
+/* Media queries to remove title, bio and nav when screen size is too small */
 @media (max-width: 1000px){
 	section{
 		padding: 5px;;
