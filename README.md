@@ -1,2 +1,3 @@
 # portfolio
-[My Portfolio](https://dominicmcgrath46.github.io/portfolio/)
+[My Portfolio](https://dominicmcgrath46.github.io/portfolio/index.html)
+
