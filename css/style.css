@@ -14,12 +14,13 @@ a {
 /* Hover/active states styled via SCALE transition */
 a:hover,
 a:active {
-	opacity: 0.75;
+	color: black;
 	transform: scale(1.025);
 }
 /* Removing list styling from both unordered lists and navigation element */
 ul, nav {
 	list-style: none;
+    margin-left: 110px;
 }
 
 section {
@@ -57,12 +58,11 @@ section {
 
 .leftPanel {
     background: rgb(255, 255, 255);
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
     right: 50%;
-    overflow: hidden;
 }
 
 
@@ -140,12 +140,15 @@ header{
 header nav{
 	display: flex;
 	text-transform: uppercase;
-	font-family: 'Ubuntu Mono', monospace;
+	font-family: 'joanna-sans-nova-thin', sans-serif;
+    font-weight: 100;
+    font-style: normal;
 	font-size: 14px;
 }
 
 header nav li{
 	margin: 0 10px;
+    margin-right: 5px;
 }
 
 /* Landing Section CSS */
@@ -157,11 +160,18 @@ header nav li{
 	text-align: center;
 }
 
+/* I'm Dominic*/
+
 .landing h1{
-	font-family: 'Josefin Slab', serif;
-    margin-bottom: 15px;
+	font-family: 'joanna-nova', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 4px;
+    margin-top: 150px;
     color: rgb(56, 56, 56);
 	font-size: 60px;
+    text-align: center;
+    margin-right: 90px ;
 }
 
 h1.illusTxt {
@@ -180,15 +190,98 @@ h1.musicTxt {
 	margin-right: 165px;
 }
 
-.landing h4{
-	font-family: 'Roboto', serif;
+/* about */
+
+h4{
+	font-family: 'joanna-sans-nova-thin', sans-serif;
     font-size: 14px;
-	color: #d4d4d4;
-	column-count: 2;
-	text-align: left;
+    font-style: normal;
+    font-weight: 100;
+	color: #b6b6b6;
+	text-align: justify;
 	padding: 10px;
-	margin-left: 90px;
-	margin-right: 85px;
+	margin-left: 86px;
+	margin-right: 82px;
+    line-height: 1.5;
+}
+
+/* bio grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 3px;
+}
+
+.grid-item {
+    padding: 1px;
+    font-size: 30px;
+    text-align: left;
+}
+
+/* bio grid */
+
+h4.bio3{
+    font-family: 'joanna-sans-nova-thin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    color: #b6b6b6;
+	margin-right: 82px;
+    margin-left: -50px;
+   
+}
+
+h4.bio4{
+    font-family: 'joanna-sans-nova-thin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    color: #b6b6b6;
+	margin-right: 82px;
+    margin-left: -50px;
+   
+}
+h4.bio5{
+    font-family: 'joanna-sans-nova-thin', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    color: #b6b6b6;
+    margin-right: 82px;
+    margin-left: -50px;
+   
+}
+.landing h3{
+    font-family: 'joanna-nova', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 200px;
+    margin-right: 82px;
+    margin-left: -40px;
+    
+}
+.icon1{
+    height: 50px;
+	width: 50px;
+    margin-left: 95px;
+    margin-top: 83px;
+    
+}
+.icon2{
+    height: 50px;
+	width: 50px;
+    margin-left: 95px;
+    margin-top: 83px;
+    
+}
+.icon3{
+    height: 50px;
+	width: 50px;
+    margin-left: 95px;
+    margin-top: 83px;
+    
 }
 
 /* Media query to change the size of text on-screen when screen size decreases */
